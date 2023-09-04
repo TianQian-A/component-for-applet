@@ -1,0 +1,26 @@
+{
+  "name": "component-for-applet",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "rename": "node index.js"
+  },
+  "bin": "./index.js",
+  "author": "YouthAi",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "index.js",
+    "templates"
+  ],
+  "devDependencies": {
+    "@inquirer/prompts": "^3.0.4",
+    "@types/node": "^18.17.14",
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "decamelize": "^6.0.0",
+    "inquirer": "^9.2.10"
+  }
+}
